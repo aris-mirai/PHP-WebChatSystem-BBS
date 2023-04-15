@@ -5,7 +5,7 @@
 		<title>注意</title>
 	</head>
     <body>
-        <button type="button" onclick="history.back()">前のページへ戻る</button>
+        <a href="index.php"><button>前のページへ戻る</button></a>
         <br>
         <h2>注意事項</h2>
         <p>
@@ -39,7 +39,7 @@
         <p>&lt;img src="./example.jpg" width=200px&gt;って感じで入れてください</p>
         <p>画像は横200pxまで</p>
         <form style="padding: 10px; border: solid 2px #000000;" action="inputscriptforpublic.php" method="post">
-			<span>名前　　　 </span><input type="text" size="10" autocomplete="name" name="name" value="<?php echo $_COOKIE['username']; ?>"><br>
+			<span>名前　　　 </span><input type="text" size="10" autocomplete="name" name="name" value="<?php ini_set('display_errors', 0); echo $_COOKIE['username']; ?>"><br>
 			<span>スクリプト </span><input type="text" size="30" autocomplete="no" name="maintext">
 			<input type="submit" value="送信" name="mode">
 		</form>

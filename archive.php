@@ -8,7 +8,7 @@
 	<body style="background-color:black">
 		<div style="margin-left: 2%;margin-right: 2%;margin-top: 3%;">
 		<h2>チャットアーカイブ</h2>
-        <button onclick="location.href='./index.php'">チャットに戻る</button>
+        <a href="index.php"><button>チャットに戻る</button></a>
 		<hr>
 			<?php
 				$fp = fopen('./date/loglog.txt','r');

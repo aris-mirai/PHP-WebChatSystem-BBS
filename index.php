@@ -16,7 +16,7 @@
 		$form = '<form action="input.php" method="post"><span style="color:white">名前 </span><input type="text" size="10" autocomplete="name" name="name" value="' . $username . '"><br><span style="color:white">本文 </span><input type="text" size="30" autocomplete="no" name="maintext"><span> </span><input type="submit" value="送信"></form>';
 		print $form;
 		?>
-		<button onclick="location.reload();">メッセージ更新</button><span> </span><button href="checkme.html" onclick="location.href='./UPcode.php'">script送信用</button><span> </span><button href="checkme.html" onclick="location.href='./upfile'">ファイルUP</button><span> </span><button href="checkme.html" onclick="location.href='./archive.php'">アーカイブ</button>
+		<a href="index.php"><button>メッセージ更新</button></a><span> </span><a href="UPcode.php"><button>script送信用</button></a><span> </span><a href="upfile.php"><button>ファイルUP</button></a><span> </span><a href="archive.php"><button>アーカイブ</button>
 		<hr>
 		<br>
 		<style>p,span{padding-left:5px}</style>
