@@ -43,4 +43,3 @@ try{
 ?>
 <a href="./index.php" style="text-decoration:none">チャットに戻る</a>
 </body>
-<!--このチャットシステムは籘原梓 @Azusa468_Linuxが作成しました。-->
