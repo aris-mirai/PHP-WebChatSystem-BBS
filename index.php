@@ -2,7 +2,7 @@
 	<head>
 		<metahttp-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="UTF-8">
-		<title>チャット</title>
+		<title>PHPチャット</title>
 	</head>
 	<style>h1,h2,h3,p,a,span{color: white;}</style>
 	<body style="background-color:black">
@@ -35,4 +35,3 @@
 			?>
 	</body>
 </html>
-<!--このチャットシステムは籘原梓 @Azusa468_Linuxが作成しました。-->
